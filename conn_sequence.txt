@@ -1,0 +1,107 @@
+Sent Command: {line:n}
+
+Received: 
+{'r': {'line': 0}, 'f': [1, 0, 10]}
+Received: 
+{'r': {'fv': 1.21, 'fb': 101.03, 'fbs': '', 'fbc': 'settings_default.h', 'hp': 'ArduinoDue', 'hv': 'na', 'id': '0084-084a-29c6-8ce', 'msg': 'SYSTEM READY'}, 'f': [1, 0, 1]}
+Sent Command:  n 2
+
+Received: 
+{'r': {'n': 2}, 'f': [1, 0, 5]}
+Sent Command: {id: n, fv:n}
+
+Received: 
+{'r': {'id': '0084-084a-29c6-8ce', 'fv': 1.21}, 'f': [1, 0, 15]}
+Sent Command:  n 4
+
+Received: 
+{'r': {'n': 4}, 'f': [1, 0, 5]}
+Sent Command: M2 n 6
+
+Received: 
+{'r': {'n': 6}, 'f': [1, 0, 7]}
+Received: 
+{'qr': 47, 'qi': 1, 'qo': 0}
+Received: 
+{'qr': 48, 'qi': 2, 'qo': 3}
+Received: 
+{'sr': {'line': 6, 'posx': 0, 'posy': 0, 'posz': 0, 'posa': 0, 'posb': 0, 'posc': 0, 'stat': 4, 'home': 0, 'homx': 0, 'homy': 0, 'homz': 0, 'homa': 0, 'homb': 0, 'vel': 0, 'qr': 48, 'n': 6, 'do1mo': 1, 'do2mo': 1, 'do3mo': 1, 'do4mo': 1, 'in1': 0, 'in7': 0, 'in8': 0, 'in9': 0, 'di1mo': 0, 'di7mo': 0, 'di8mo': 0, 'di9mo': 0, 'do6mo': 1, 'do7mo': 1, 'do8mo': 1, 'do9mo': 1, 'do10mo': 1}}
+Sent Command: {sr: n}                      |      2/7 commands
+
+Received: 
+{'r': {'sr': {'line': 6, 'posx': 0, 'posy': 0, 'posz': 0, 'posa': 0, 'posb': 0, 'posc': 0, 'stat': 4, 'home': 0, 'homx': 0, 'homy': 0, 'homz': 0, 'homa': 0, 'homb': 0, 'vel': 0, 'qr': 48, 'n': 6, 'do1mo': 1, 'do2mo': 1, 'do3mo': 1, 'do4mo': 1, 'in1': 0, 'in7': 0, 'in8': 0, 'in9': 0, 'di1mo': 0, 'di7mo': 0, 'di8mo': 0, 'di9mo': 0, 'do6mo': 1, 'do7mo': 1, 'do8mo': 1, 'do9mo': 1, 'do10mo': 1}}, 'f': [1, 0, 9]}
+Sent Command:  n 8
+
+Received: 
+{'r': {'n': 8}, 'f': [1, 0, 5]}
+Sent Command: M2 n 10
+
+Received: 
+{'r': {'n': 10}, 'f': [1, 0, 8]}
+Received: 
+{'qr': 47, 'qi': 1, 'qo': 0}
+Received: 
+{'qr': 48, 'qi': 2, 'qo': 3}
+Received: 
+{'sr': {'line': 10, 'stat': 4, 'n': 10}}
+Sent Command: G28.3X00.0000 Y-86.4191 Z907.6283 A-178.7908 B178.7908 C00.0000
+
+Received: 
+{'r': {}, 'f': [1, 0, 64]}
+Received: 
+{'qr': 47, 'qi': 1, 'qo': 0}
+Received: 
+{'qr': 48, 'qi': 0, 'qo': 1}
+Sent Command: G10L1P1X1.74 n 12
+
+Received: 
+{'r': {'n': 12}, 'f': [1, 0, 18]}
+Sent Command: M100({xjm: 150.0, yjm: 150.0, zjm: 150.0, ajm: 150.0, bjm: 150.0})
+
+Received: 
+{'r': {}, 'f': [1, 0, 67]}
+Received: 
+{'qr': 47, 'qi': 1, 'qo': 0}
+Received: 
+{'qr': 48, 'qi': 0, 'qo': 1}
+Sent Command: G90 G1 X00.0000 Y-86.4191 Z907.6283 A-178.7908 B178.7908 C00.0000F500.0000 n 14
+
+Received: 
+{'r': {'n': 14}, 'f': [1, 0, 80]}
+Sent Command: {tt32:n}
+
+Received: 
+{'sr': {'line': 14, 'posy': -86.4191, 'posz': 907.62829, 'posa': -178.7908, 'posb': 178.7908, 'stat': 3, 'homx': 1, 'homy': 1, 'homz': 1, 'homa': 1, 'homb': 1, 'n': 14}}
+Received: 
+{'r': {'tt32': {'x': 0, 'y': 0, 'z': 0, 'u': 0, 'v': 0, 'w': 0, 'a': 0, 'b': 0, 'c': 0}}, 'f': [1, 0, 10]}
+Sent Command:  n 16██████████              |      4/7 commands
+
+Received: 
+{'r': {'n': 16}, 'f': [1, 0, 6]}
+Sent Command: {jt : 1}
+
+Received: 
+{'r': {'jt': 1}, 'f': [1, 0, 10]}
+Sent Command: {ct : 0.01}
+
+Received: 
+{'r': {'ct': 0.01}, 'f': [1, 0, 13]}
+Received: 
+{'sr': {'line': 16, 'stat': 5, 'n': 16}}
+Sent Command:  n 18
+
+Received: |██████████████████████          |      5/7 commands
+{'r': {'n': 18}, 'f': [1, 0, 6]}
+Sent Command: M2 n 20
+
+Received: 
+{'r': {'n': 20}, 'f': [1, 0, 8]}
+Received: 
+{'qr': 47, 'qi': 1, 'qo': 0}
+Received: 
+{'qr': 48, 'qi': 2, 'qo': 3}
+Received: 
+{'sr': {'line': 20, 'stat': 4, 'n': 20}}
+    100%  |████████████████████████████████|      7/7 commands
+{"id": "0084-084a-29c6-8ce", "connection": 2, "port": "/dev/ttyACM0", "fv": 1.21, "config": "/home/vansweej/Projects/dorna/dorna/dorna/config.yaml", "state": 0, "version": "1.4.2"}
+robot disconnecting
