@@ -2114,8 +2114,7 @@ class Dorna(_port_usb, easy_method):
         try:
             #_command = dict(self._system["command"][0][0])
             _command = copy.deepcopy(self._system["command"][0][0])
-            print("command_compile")
-            print(_command)
+           
             if "prm" in _command:
                 _prm = copy.deepcopy(_command["prm"])
             else:
